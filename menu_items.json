@@ -1,0 +1,58 @@
+[
+    {
+        "model": "menu_item.menuitem",
+        "pk": 1,
+        "fields": {
+            "title": "Главная",
+            "parent": null
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 2,
+        "fields": {
+            "title": "Сотрудники",
+            "parent": 1
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 3,
+        "fields": {
+            "title": "Постоянные",
+            "parent": 2
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 4,
+        "fields": {
+            "title": "Временные",
+            "parent": 2
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 5,
+        "fields": {
+            "title": "Клиенты",
+            "parent": 1
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 6,
+        "fields": {
+            "title": "VIP",
+            "parent": 5
+        }
+    },
+    {
+        "model": "menu_item.menuitem",
+        "pk": 7,
+        "fields": {
+            "title": "VIP-gold",
+            "parent": 6
+        }
+    }
+]
