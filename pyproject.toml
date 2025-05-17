@@ -2,7 +2,7 @@
 name = "menu-item"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Alexander Baranov"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
