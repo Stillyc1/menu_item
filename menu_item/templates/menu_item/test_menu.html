@@ -6,15 +6,7 @@
 </head>
 <body>
 {% load menu_tags %}
-{% draw_menu 'Постоянные' %}
-<!--{% for menu in menu_item %}-->
-<!--<ul>-->
-<!--    <li><a href="{% url 'menu_item:menu_view' %}">{{ menu.title }}</a>-->
-<!--        <ul>-->
-<!--            <li>{{ menu.submenu.title }}</li>-->
-<!--        </ul>-->
-<!--    </li>-->
-<!--</ul>-->
-<!--{% endfor %}-->
+{% draw_menu title %}
+
 </body>
 </html>

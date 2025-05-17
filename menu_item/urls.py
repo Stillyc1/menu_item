@@ -6,5 +6,5 @@ from menu_item.views import MenuView
 app_name = MenuItemConfig.name
 
 urlpatterns = [
-    path("", MenuView.as_view(), name="menu_view"),
+    path("<str:title>/", MenuView.as_view(), name="menu_view"),
 ]
